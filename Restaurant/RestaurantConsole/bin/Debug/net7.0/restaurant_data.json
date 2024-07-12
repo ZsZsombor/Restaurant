@@ -1,0 +1,131 @@
+{
+  "Tables": [
+    {
+      "TableNumber": 1,
+      "IsOccupied": false
+    },
+    {
+      "TableNumber": 2,
+      "IsOccupied": false
+    },
+    {
+      "TableNumber": 3,
+      "IsOccupied": false
+    },
+    {
+      "TableNumber": 4,
+      "IsOccupied": true
+    },
+    {
+      "TableNumber": 5,
+      "IsOccupied": true
+    },
+    {
+      "TableNumber": 6,
+      "IsOccupied": false
+    },
+    {
+      "TableNumber": 7,
+      "IsOccupied": true
+    },
+    {
+      "TableNumber": 8,
+      "IsOccupied": true
+    }
+  ],
+  "Reservations": [
+    {
+      "Name": "Bela",
+      "ReservationId": 2,
+      "Date": "2024-03-21T00:00:00",
+      "NumberOfPeople": 5,
+      "TableNumber": 5
+    },
+    {
+      "Name": "Zsombor",
+      "ReservationId": 2,
+      "Date": "2024-03-20T12:52:18.2105875+01:00",
+      "NumberOfPeople": 2,
+      "TableNumber": 8
+    },
+    {
+      "Name": "jani",
+      "ReservationId": 3,
+      "Date": "2024-03-19T00:00:00",
+      "NumberOfPeople": 10,
+      "TableNumber": 4
+    },
+    {
+      "Name": "Your name",
+      "ReservationId": 3,
+      "Date": "2024-03-19T00:00:00",
+      "NumberOfPeople": 10,
+      "TableNumber": 4
+    },
+    {
+      "Name": "zsombor",
+      "ReservationId": 3,
+      "Date": "2024-03-18T00:00:00",
+      "NumberOfPeople": 3,
+      "TableNumber": 4
+    },
+    {
+      "Name": "zsombor",
+      "ReservationId": 3,
+      "Date": "2024-03-20T16:51:11.2955896+01:00",
+      "NumberOfPeople": 2,
+      "TableNumber": 7
+    },
+    {
+      "Name": "Zsombor",
+      "ReservationId": 4,
+      "Date": "2024-03-29T00:00:00",
+      "NumberOfPeople": 3,
+      "TableNumber": 7
+    }
+  ],
+  "Orders": [
+    {
+      "OrderId": 1,
+      "TableNumber": 1,
+      "Items": [
+        "Treasures of the Sea Cream Soup",
+        "Black Flag Crispy Fish Scales",
+        "Wild Sea Pirate Catch",
+        "Chocolate Volcano",
+        "Pirates\u0027 Blood Red Wine"
+      ]
+    },
+    {
+      "OrderId": 2,
+      "TableNumber": 2,
+      "Items": [
+        "Age of Pirates Meat Soup"
+      ]
+    },
+    {
+      "OrderId": 3,
+      "TableNumber": 2,
+      "Items": [
+        "Age of Pirates Meat Soup"
+      ]
+    }
+  ],
+  "Bills": [
+    {
+      "BillId": 1,
+      "TableNumber": 1,
+      "TotalAmount": 16800
+    },
+    {
+      "BillId": 2,
+      "TableNumber": 2,
+      "TotalAmount": 2200
+    },
+    {
+      "BillId": 3,
+      "TableNumber": 2,
+      "TotalAmount": 4400
+    }
+  ]
+}

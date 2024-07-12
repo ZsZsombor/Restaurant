@@ -1,0 +1,61 @@
+{
+    "Tables": [
+        {
+            "TableNumber": 1,
+            "IsOccupied": false
+        },
+        {
+            "TableNumber": 2,
+            "IsOccupied": true
+        },
+        {
+            "TableNumber": 3,
+            "IsOccupied": false
+        }
+    ],
+    "Reservations": [
+        {
+            "ReservationId": 1,
+            "Date": "2024-02-25T18:00:00",
+            "NumberOfPeople": 4,
+            "TableNumber": 1
+        },
+        {
+            "ReservationId": 2,
+            "Date": "2024-02-26T19:00:00",
+            "NumberOfPeople": 2,
+            "TableNumber": 3
+        }
+    ],
+    "Orders": [
+        {
+            "OrderId": 1,
+            "TableNumber": 2,
+            "Items": [
+                "Burger",
+                "Fries",
+                "Coke"
+            ]
+        },
+        {
+            "OrderId": 2,
+            "TableNumber": 3,
+            "Items": [
+                "Pizza",
+                "Salad"
+            ]
+        }
+    ],
+    "Bills": [
+        {
+            "BillId": 1,
+            "TableNumber": 2,
+            "TotalAmount": 25.5
+        },
+        {
+            "BillId": 2,
+            "TableNumber": 3,
+            "TotalAmount": 20
+        }
+    ]
+}

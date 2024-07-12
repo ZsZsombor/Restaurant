@@ -1,0 +1,126 @@
+{
+  "Tables": [
+    {
+      "TableNumber": 1,
+      "IsOccupied": true
+    },
+    {
+      "TableNumber": 2,
+      "IsOccupied": true
+    },
+    {
+      "TableNumber": 3,
+      "IsOccupied": false
+    },
+    {
+      "TableNumber": 4,
+      "IsOccupied": true
+    },
+    {
+      "TableNumber": 5,
+      "IsOccupied": false
+    },
+    {
+      "TableNumber": 6,
+      "IsOccupied": false
+    },
+    {
+      "TableNumber": 7,
+      "IsOccupied": true
+    },
+    {
+      "TableNumber": 8,
+      "IsOccupied": true
+    }
+  ],
+  "Reservations": [
+    {
+      "Name": null,
+      "ReservationId": 3,
+      "Date": "2024-02-27T16:19:23.2862711+01:00",
+      "NumberOfPeople": 8,
+      "TableNumber": 1
+    },
+    {
+      "Name": "Zal\u00E1n",
+      "ReservationId": 3,
+      "Date": "2024-03-18T10:36:54.1625912+01:00",
+      "NumberOfPeople": 5,
+      "TableNumber": 2
+    },
+    {
+      "Name": "Zal\u00E1n",
+      "ReservationId": 4,
+      "Date": "2024-03-18T00:00:00",
+      "NumberOfPeople": 8,
+      "TableNumber": 7
+    },
+    {
+      "Name": "Zal\u00E1n",
+      "ReservationId": 4,
+      "Date": "2024-03-18T00:00:00",
+      "NumberOfPeople": 8,
+      "TableNumber": 7
+    },
+    {
+      "Name": "Zal\u00E1n",
+      "ReservationId": 4,
+      "Date": "2024-03-19T00:00:00",
+      "NumberOfPeople": 4,
+      "TableNumber": 4
+    },
+    {
+      "Name": "Zal\u00E1n",
+      "ReservationId": 4,
+      "Date": "2024-03-19T00:00:00",
+      "NumberOfPeople": 4,
+      "TableNumber": 8
+    }
+  ],
+  "Orders": [
+    {
+      "OrderId": 1,
+      "TableNumber": 2,
+      "Items": [
+        "Burger",
+        "Fries",
+        "Coke"
+      ]
+    },
+    {
+      "OrderId": 2,
+      "TableNumber": 3,
+      "Items": [
+        "Pizza",
+        "Salad"
+      ]
+    },
+    {
+      "OrderId": 3,
+      "TableNumber": 2,
+      "Items": [
+        "Treasures of the Sea Cream Soup",
+        "Pirate Captain Lamb Ribs",
+        "Chocolate Volcano",
+        "Pirates\u0027 Blood Red Wine"
+      ]
+    }
+  ],
+  "Bills": [
+    {
+      "BillId": 1,
+      "TableNumber": 2,
+      "TotalAmount": 25.5
+    },
+    {
+      "BillId": 2,
+      "TableNumber": 3,
+      "TotalAmount": 20
+    },
+    {
+      "BillId": 3,
+      "TableNumber": 2,
+      "TotalAmount": 12700
+    }
+  ]
+}

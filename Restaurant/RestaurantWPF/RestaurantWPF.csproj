@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="background.jpg" />
+    <None Remove="img\parrot.gif" />
+    <None Remove="Logo.png" />
+    <None Remove="mail.png" />
+    <None Remove="map.png" />
+    <None Remove="parrot.gif" />
+    <None Remove="phone.png" />
+    <None Remove="Pirate-profil.png" />
+    <None Remove="treasure-map.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MySql.Data" Version="8.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RestaurantLibrary\RestaurantLibrary.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="background.jpg" />
+    <Resource Include="img\parrot.gif" />
+    <Resource Include="Logo.png" />
+    <Resource Include="mail.png" />
+    <Resource Include="map.png" />
+    <Resource Include="parrot.gif" />
+    <Resource Include="phone.png" />
+    <Resource Include="Pirate-profil.png" />
+    <Resource Include="treasure-map.jpg" />
+  </ItemGroup>
+
+</Project>
